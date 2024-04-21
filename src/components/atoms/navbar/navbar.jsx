@@ -2,7 +2,7 @@ import Link from 'next/link';
 import styles from './navbar.module.css';
 import Image from 'next/image';
 
-export const NavBar = ({ children }) => {
+export const NavBar = () => {
   return (
     // Main Container that will hold the Navbar and the children components
     <div className={styles.mainContainer}>
@@ -39,7 +39,6 @@ export const NavBar = ({ children }) => {
           <Link href='/async-await'>Async-Await</Link>
         </div>
       </nav>
-      {children}
     </div>
   );
 };
