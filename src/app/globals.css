@@ -7,7 +7,9 @@
 
   /* Colors */
   --primary: #0890f2ef;
+  --primary-light: #409cdd;
   --secondary: #ff7e00;
+  --secondary-light: #ff7e00ef;
   --tertiary: #ff00ff;
   --quaternary: #00ff00;
   --quinary: #ff0000;
@@ -19,6 +21,12 @@
   /* Light Theme */
   --secondary-background: rgba(255, 255, 255, 0.81);
   --secondary-text: rgba(0, 0, 0, 0.863);
+
+  /* Button */
+  --button-padding: 0.2rem 0.5rem; /* Sets the global Button Padding */
+  --button-font-size: 1.3rem; /* Sets the global Button Font Size */
+  --border: none; /* Sets the global border */
+  --border-radius: 5px; /* Sets the global border radius */
 }
 
 * {
