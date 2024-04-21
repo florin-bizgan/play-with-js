@@ -1,5 +1,5 @@
 // Pages
-export { LandingPage } from './pages';
+export { LandingPage, VariablesPage } from './pages';
 
 // Data
 export { landingData } from './data';

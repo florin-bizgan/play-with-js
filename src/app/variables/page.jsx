@@ -1,7 +1,12 @@
+import { VariablesPage } from '@/components';
 import React from 'react';
 
 const Variables = () => {
-  return <div>Variables</div>;
+  return (
+    <>
+      <VariablesPage />
+    </>
+  );
 };
 
 export default Variables;

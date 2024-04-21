@@ -1,0 +1,38 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mainContainer h1 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.mainContainer h1,
+.mainContainer h2,
+.mainContainer h3 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: var(--sandybrown);
+}
+
+.mainContainer h4 {
+  padding: 15px;
+}
+
+.mainContainer p {
+  text-align: justify;
+}
+
+.mainContainer pre {
+  /* font-size: 1.5em; */
+  color: rgba(79, 242, 4, 0.587);
+  background-color: hsl(0, 0%, 10%);
+  padding: 15px;
+  border-radius: 5px;
+  width: max-content;
+}
