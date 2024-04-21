@@ -4,9 +4,9 @@ import styles from './landing.module.css';
 export const LandingPage = () => {
   return (
     <div className={styles.mainContainer}>
-      {landingData.map(({ title, description, cta, index }) => {
+      {landingData.map(({ title, description, cta, id }) => {
         return (
-          <div className={styles.bodyContainer} key={index}>
+          <div className={styles.bodyContainer} key={id}>
             <h1>{title}</h1>
 
             {/* If description is a string, render as a single paragraph  */}
@@ -17,7 +17,7 @@ export const LandingPage = () => {
               })
             ) : (
               // If description is not an array, render it as a single paragraph
-              <p key={index}>{description}</p>
+              <p>{description}</p>
             )}
             <button>{cta}</button>
           </div>
