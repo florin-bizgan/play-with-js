@@ -1,0 +1,14 @@
+.btn {
+  background-color: var(--primary);
+  color: bisque;
+  border: 1px solid transparent;
+  border-radius: var(--border-radius);
+  padding: 0.5rem 1rem;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  cursor: pointer;
+}

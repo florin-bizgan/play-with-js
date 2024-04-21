@@ -5,4 +5,4 @@ export { LandingPage } from './pages';
 export { landingData } from './data';
 
 // Atoms
-export { NavBar } from './atoms';
+export { NavBar, BackButton } from './atoms';

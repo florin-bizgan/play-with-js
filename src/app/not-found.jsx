@@ -1,5 +1,4 @@
-'use client';
-
+import { BackButton } from '@/components';
 import styles from './page.module.css';
 
 const NotFoundPage = () => {
@@ -10,7 +9,7 @@ const NotFoundPage = () => {
         The page you are looking for might have been removed, had its name
         changed, or is temporarily unavailable.
       </p>
-      <button onClick={() => window.history.back()}>Go Back</button>
+      <BackButton />
     </div>
   );
 };
