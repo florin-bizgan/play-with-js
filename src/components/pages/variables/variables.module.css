@@ -30,9 +30,14 @@
 
 .mainContainer pre {
   /* font-size: 1.5em; */
-  color: rgba(79, 242, 4, 0.587);
+  color: #00aaffe4;
   background-color: hsl(0, 0%, 10%);
   padding: 15px;
   border-radius: 5px;
   width: max-content;
+}
+
+.exampleTitle {
+  color: var(--tertiary);
+  font-style: italic;
 }
