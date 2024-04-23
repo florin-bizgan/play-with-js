@@ -1,7 +1,12 @@
-import React from 'react';
+import styles from '../page.module.css';
 
-const Promises = () => {
-  return <div>Promises</div>;
+const Promise = () => {
+  return (
+    <div className={styles.tempContainer}>
+      <h1>Promise</h1>
+      <p>Content to be added soon.</p>
+    </div>
+  );
 };
 
-export default Promises;
+export default Promise;
