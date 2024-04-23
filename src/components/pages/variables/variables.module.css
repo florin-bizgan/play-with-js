@@ -30,17 +30,16 @@
 
 .mainContainer pre {
   border-radius: 5px;
-  /* width: max-content; */
   margin: 5px;
-  /* background-color: hsl(0, 0%, 10%); */
 }
-
-/* .mainContainer pre code {
-} */
 
 .exampleTitle {
   color: var(--tertiary);
   font-style: italic;
+}
+
+.codeContainer h2 {
+  padding: 1rem 0 0 0;
 }
 
 /* Media */
