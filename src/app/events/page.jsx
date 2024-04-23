@@ -1,7 +1,12 @@
-import React from 'react';
+import styles from '../page.module.css';
 
 const Events = () => {
-  return <div>Events</div>;
+  return (
+    <div className={styles.tempContainer}>
+      <h1>Events</h1>
+      <p>Content to be added soon.</p>
+    </div>
+  );
 };
 
 export default Events;

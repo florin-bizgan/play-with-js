@@ -31,7 +31,7 @@ export const VariablesPage = () => {
       </p>
 
       {/* =================== Declaring Variables ========================= */}
-      <h4 className={styles.exampleTitle}>Example</h4>
+      <h4 className={styles.exampleTitle}>Example:</h4>
       {/* var */}
       <pre>
         <code className='language-javascript'>
@@ -52,7 +52,7 @@ const z = 30;
         Values can be assigned to variables using the assignment operator (=).
         The value of a variable can be changed by assigning a new value to it.
       </p>
-      <h4 className={styles.exampleTitle}>Example</h4>
+      <h4 className={styles.exampleTitle}>Example:</h4>
       <pre>
         <code className='language-javascript'>
           {`// Assigning a value to a variable
@@ -70,7 +70,7 @@ x = 20;`}
         have function scope, while variables declared using the let or const
         keyword have block scope.
       </p>
-      <h4 className={styles.exampleTitle}>Example</h4>
+      <h4 className={styles.exampleTitle}>Example:</h4>
       <pre>
         <code className='language-javascript'>
           {`// Variables declared using the var keyword have function scope
