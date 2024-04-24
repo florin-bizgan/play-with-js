@@ -6,7 +6,7 @@ import 'prismjs';
 import 'prismjs/themes/prism.css';
 import 'prismjs/components/prism-javascript';
 import 'prismjs/components/prism-jsx'; //
-import { variablesData } from '@/components/data';
+import { variablesData } from '@/components';
 
 export const VariablesPage = () => {
   useEffect(() => {

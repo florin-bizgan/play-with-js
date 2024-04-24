@@ -20,10 +20,6 @@
   color: var(--sandybrown);
 }
 
-.mainContainer h4 {
-  padding: 15px;
-}
-
 .mainContainer p {
   text-align: justify;
 }
@@ -36,6 +32,7 @@
 .exampleTitle {
   color: var(--tertiary);
   font-style: italic;
+  padding: 15px;
 }
 
 .codeContainer h2 {
