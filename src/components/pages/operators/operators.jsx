@@ -1,21 +1,21 @@
 'use client';
 
 import React, { useEffect } from 'react';
-import styles from './variables.module.css';
+import styles from './operators.module.css';
 import 'prismjs';
 import 'prismjs/themes/prism.css';
 import 'prismjs/components/prism-javascript';
 import 'prismjs/components/prism-jsx'; //
-import { variablesData } from '@/components';
+import { operatorsData } from '@/components';
 
-export const VariablesPage = () => {
+export const OperatorsPage = () => {
   useEffect(() => {
     Prism.highlightAll();
   }, []);
 
   return (
     <div className={styles.mainContainer}>
-      {variablesData.map(({ codeSnippets, description, id, title }) => {
+      {operatorsData.map(({ codeSnippets, description, id, title }) => {
         return (
           <div key={id}>
             <h1>{title}</h1>

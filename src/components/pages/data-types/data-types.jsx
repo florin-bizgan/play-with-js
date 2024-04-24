@@ -1,21 +1,21 @@
 'use client';
 
-import React, { useEffect } from 'react';
-import styles from './variables.module.css';
 import 'prismjs';
 import 'prismjs/themes/prism.css';
 import 'prismjs/components/prism-javascript';
 import 'prismjs/components/prism-jsx'; //
-import { variablesData } from '@/components';
+import { dataTypesData } from '@/components';
+import React, { useEffect } from 'react';
+import styles from './data-types.module.css';
 
-export const VariablesPage = () => {
+export const DataTypesPage = () => {
   useEffect(() => {
     Prism.highlightAll();
   }, []);
 
   return (
     <div className={styles.mainContainer}>
-      {variablesData.map(({ codeSnippets, description, id, title }) => {
+      {dataTypesData.map(({ codeSnippets, description, id, title }) => {
         return (
           <div key={id}>
             <h1>{title}</h1>
