@@ -1,8 +1,8 @@
 // Pages
-export { LandingPage, VariablesPage } from './pages';
+export { LandingPage, VariablesPage, DataTypesPage } from './pages';
 
 // Data
-export { landingData, variablesData } from './data';
+export { landingData, variablesData, dataTypesData } from './data';
 
 // Atoms
 export { NavBar, BackButton } from './atoms';
